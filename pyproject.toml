@@ -1,7 +1,7 @@
 [project]
-name = "rag-project"
+name = "quantum-rag"
 version = "0.1.0"
-description = "Add your description here"
+description = "A Research Agentic RAG Assistant for Quantum Computing and Machine Learning."
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
