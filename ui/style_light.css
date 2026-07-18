@@ -1,0 +1,34 @@
+/* ui/style_light.css - Light theme styling */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Fira+Code:wght@400;500&display=swap');
+
+/* Global Font Override */
+html, body, [data-testid="stAppViewContainer"], [data-testid="stHeader"] {
+    font-family: 'Outfit', -apple-system, BlinkMacSystemFont, sans-serif;
+    background: #f9fafb !important;
+    color: #111827 !important;
+}
+
+/* Sidebar Styling */
+[data-testid="stSidebar"] {
+    background: rgba(255, 255, 255, 0.9) !important;
+    color: #111827;
+    backdrop-filter: blur(10px) !important;
+}
+
+/* Card and Button Adjustments */
+.quickstart-card button {
+    background: rgba(0,0,0,0.05) !important;
+    color: #111827 !important;
+    border: 1px solid rgba(0,0,0,0.1) !important;
+}
+
+/* Chat Message Adjustments */
+[class*="st-key-user"] [data-testid="stChatMessage"] {
+    background: #e5e7eb !important;
+    color: #111827 !important;
+}
+
+[class*="st-key-assistant"] [data-testid="stChatMessage"] {
+    background: #fff !important;
+    color: #111827 !important;
+}
